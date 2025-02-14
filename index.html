@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minimal Aesthetic Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900 font-sans">
+
+    <div class="flex justify-center items-center h-screen">
+        <img src="extror.png" alt="Placeholder Image" class="rounded-lg">
+    </div>
+
+    <div class="bg-gray-50 py-12">
+        <div class="text-center px-6 py-12 max-w-lg w-full mx-auto">
+            <h2 class="text-3xl font-semibold mb-6 text-gray-800">Request Account Deletion</h2>
+            <p class="text-lg text-gray-600 mb-8">To delete your account, please enter your email below and submit your request. We will process your request shortly.</p>
+            <form action="mailto:pigeon.himanshu@gmail.com" method="POST" enctype="multipart/form-data" class="space-y-6">
+                <div class="flex flex-col">
+                    <label for="username" class="text-left text-sm font-semibold text-gray-700">Username</label>
+                    <input type="text" id="username" name="username" required class="px-4 py-2 mt-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:outline-none transition duration-200">
+                </div>
+
+                <div class="flex justify-center">
+                    <button type="submit" class="px-8 py-3 bg-gray-800 text-white text-lg rounded-full transition hover:bg-gray-700">
+                        Submit Request
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+        <div class="text-center">
+            <p class="text-sm">
+                <a href="/" class="hover:text-gray-400">Home</a> | 
+                <a href="terms-conditions.html" class="hover:text-gray-400">Terms and Conditions</a> | 
+                <a href="privacy-policy.html" class="hover:text-gray-400">Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
